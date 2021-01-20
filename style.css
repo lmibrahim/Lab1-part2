@@ -1,0 +1,143 @@
+/* resets */
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+.company {
+  font-size: 30px;
+}
+
+.header-nav-list {
+  list-style: none;
+}
+
+.header-nav-li {
+  margin: 5px 0;
+}
+
+.header-nav {
+  color: #69696a;
+  padding: 5px 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  display: block;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.about-text {
+  border-left: 3px solid #69696a;
+  padding-left: 10px;
+  color: #69696a;
+}
+
+.coloured-circles {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 0;
+  width: 100%;
+  background-color: rgba(247, 193, 162, 0.7);
+}
+
+.footer-company {
+  margin-left: 20px;
+}
+
+.footer-nav {
+  margin-right: 20px;
+}
+
+.footer-nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer-link {
+  padding: 5px;
+  color: #69696a;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-nav-list {
+    display: flex;
+    align-items: center;
+  }
+  .header-nav-li {
+    padding: 5px;
+  }
+
+  .text-container {
+    display: flex;
+  }
+  .text-content {
+    flex: 1;
+  }
+  .coloured-circles {
+    display: initial;
+    flex: 1;
+  }
+  .pink {
+    background-color: rgba(247, 136, 167, 0.6);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    right: 80px;
+    bottom: 150px;
+    top: 100px;
+  }
+  .yellow {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 36%;
+    margin-right: 10px;
+  }
+  .purple {
+    background-color: rgba(207, 130, 213, 0.6);
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    right: 0px;
+    margin-right: 10px;
+    bottom: 60%;
+  }
+
+  main {
+    padding: 50px 0;
+  }
+}
